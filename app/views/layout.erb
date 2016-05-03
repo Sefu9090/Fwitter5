@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Fwitter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="http://qmix.com/wp-content/uploads/2015/06/Bald_Eagle_Profile_Portrait_2.jpg" rel="shortcut icon">
+  </head>
+<body>
+    <nav>
+      <div>
+      <a href="/"><img src="http://qmix.com/wp-content/uploads/2015/06/Bald_Eagle_Profile_Portrait_2.jpg" >  </a>
+      <h4 class="main">Fwitter</h4>
+<div class="example">We all know its better than Twitter</div>
+
+
+      </div>
+      <ul>
+        <% if logged_in? %>
+            <li>Welcome, <%= current_user.username %></li>
+            <li class= "right"><a href="/tweet">Post a Tweet!</a></li>
+            <li ><a href="/logout">Logout</a></li>
+        <% else %>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/users">Sign Up</a></li>
+        <% end %>
+      </ul>
+    </nav>
+    <div class="container">
+ 
+      <h1>Welcome to Fwitter!</h1>
+ <br>
+      <%= yield %>    
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

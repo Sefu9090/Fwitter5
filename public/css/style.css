@@ -1,0 +1,99 @@
+.error p {
+  color: #e74c3c;
+  margin-top: 15px;
+}
+
+#follow-btn {
+  margin-left: 10px;
+  display:inline-block;
+}
+
+.footer {
+  margin-top: 25px;
+}
+
+li{
+  color: #d35400;
+  display: inline-block;
+  font-size : 50px;
+}
+a {
+  color: #e74c3c;
+  display: inline-block;
+  font-size : 35px;
+  margin-left: 10px;
+  text-align:right;
+
+}
+h1{
+    color: #00BCE1;
+  margin:0px;
+  font-size : 100px;
+      text-align:center;
+
+}
+h2,
+h3{
+  color: #3498db;
+  margin:10px;
+  font-size : 60px;
+    text-align:center;
+
+}
+.right{
+    margin-left: 500px;
+
+}
+p {
+  color : #2ecc71;
+  text-align:center;
+  font-size: 25px;
+}
+.btn {
+  text-align:center;
+  margin-top: 10px;
+  width: 150px;
+}
+form{
+    text-align:center;
+  margin : 0 auto;
+      margin-top: 10px;
+  font-size:25px;
+
+}
+.input {
+  width: 306px;
+}
+img{
+  height: 120px;
+  width: 170px;
+  display:inline-block;
+    margin:0;
+  padding:0;
+  border:0;
+  float:left;
+}
+h4{
+  display:inline-block;
+  font-size:90px;
+  margin:0;
+  padding:0;
+  border:0;
+  color : #2c3e50;
+}
+ul{
+  background: #3498db;
+}
+body{
+  background:#ecf0f1;
+}
+.hover:hover {
+    color: #c0392b;
+}
+.example {
+
+    padding: 10px;
+    display: none;
+}
+h4:hover + .example {
+    display: inline;
